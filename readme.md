@@ -19,8 +19,9 @@
 5. `g++ -c -fcip transducer_wrap.cxx transducer.cc -I/{{path to python header}} -std=c++11`
 6. `g++ -shared transducer.o transducer_wrap.o -o _transducer.so `pkg-config --cflags --libs python3 lttoolbox` -std=c++11`
 
-### Alternate 
-1. `./run.sh`
+### Alternate
+1. `chmod +x run.sh`
+2. `./run.sh`
 
 
 
