@@ -34,3 +34,9 @@
 
 1. To get the  path to python header in the  environment, enter `python-config --cflags` in the terminal
 
+
+# Current Status of the wrapper
+ - The current wrapper can take a transducer as input(ref `test.py`)
+ - `t.show()` gives the following output for a transducer for beer:
+![image](./images/t.show_out.png)
+        
